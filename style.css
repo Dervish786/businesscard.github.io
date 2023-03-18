@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: "Poppins", sans-serif;
+  min-zoom: 100%;
+  user-zoom: 100%;
+  max-zoom: 100%;
+}
+
+main {
+  min-height: 95vh;
+  margin: 3% 18% 2%;
+  border: 3px solid #333;
+  background-color: #f9dbbb;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+main img {
+  margin-top: 1em;
+  margin-left: 10em;
+  background-color: #333;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 20px;
+  margin-top: -4.5em;
+  text-align: center;
+  font-weight: 500;
+}
+
+.email {
+  text-align: center;
+  font-weight: 600;
+}
+
+.skills {
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: 15em;
+  line-height: 2;
+}
+
+.skills h2 {
+  margin-top: 1em;
+  margin-left: -1em;
+  text-transform: uppercase;
+}
+
+.skills > ul > li {
+  font-weight: 500;
+}
+
+.interests {
+  display: inline-block;
+  margin-left: 10em;
+  line-height: 2;
+}
+
+.interests h2 {
+  margin-left: -1em;
+  text-transform: uppercase;
+}
+
+.interests > ul > li {
+  font-weight: 500;
+}
+
+.socials {
+  margin-top: 5em;
+  background: #333;
+  margin-inline: 30%;
+  border-radius: 10px;
+}
+
+div.socials > a {
+  font-size: 40px;
+  margin: 0px 15px;
+  color: #afaca9;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
